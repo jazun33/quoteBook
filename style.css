@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Helvetica, Sans;
+}
+
+.inputForm {
+    width: 60%;
+    background: #ff763d;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.inputForm textarea {
+    display: block;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.filterTerm {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+blockquote {
+    background: #dedee7;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    quotes: '“' '”';
+    border-top: solid #ff763d 6px;
+}
+
+blockquote .removeBtn {
+    border: solid #f4a888 2px;
+    border-radius: 5px;
+    height: 26px;
+    width: 26px;
+    float: right;
+}
+
+.removeBtn div{
+    background: #ff763d;
+    margin: 10px auto;
+    height: 6px;
+    width: 60%;
+}
+
+blockquote .quote {
+    font-size: 2em;
+    line-height: 2.1em;
+    color: #4c5968
+}
+
+blockquote .author {
+    font-style: italic;
+    text-align: right;
+    color: #959daa;
+}
+
+blockquote .quote:before {
+    color: #a3a8b4;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.4em;
+}
+blockquote .quote:after {
+    color: #a3a8b4;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.1em;
+    vertical-align: -0.4em;
+}
