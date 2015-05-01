@@ -14,7 +14,7 @@
 
     <input class="filterTerm" ng-model="filterTerm" placeholder="filter by">
 
-    <blockquote ng-repeat="quote in quotes | filter:filterTerm">
+    <blockquote ng-repeat="quote in quotes track by quote.text | filter:filterTerm">
         <div class="removeBtn" ng-click="removeData(quote)" title="Remove quote">
             <div></div>
         </div>
